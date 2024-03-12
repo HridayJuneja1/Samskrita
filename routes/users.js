@@ -37,8 +37,9 @@ router.post('/register', async (req, res) => {
 
     await newUser.save();
 
-    // Generate verification link
-    const verificationUrl = `http://localhost:5000/api/users/verify/${verificationToken}`;
+    const baseUrl = req.protocol + '://' + req.get('host');
+    const verificationUrl = `${baseUrl}/api/users/verify/${verificationToken}`;
+
 
     // Send verification email
     await transporter.sendMail({
