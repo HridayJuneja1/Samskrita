@@ -1,0 +1,43 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff; /* Assuming a white background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the navbar */
+    font-size: 30px;
+  }
+  
+  .navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    margin-right: 40px;
+    color: #000; /* Black text color for the links */
+  }
+  
+  .navbar-auth button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .login-btn {
+    background-color: #fff; /* White background for the login button */
+    color: #000; /* Black text for the login button */
+    font-size: 30px;
+  }
+  
+  .signup-btn {
+    background-color: #000; /* Black background for the sign-up button */
+    color: #fff; /* White text for the sign-up button */
+    font-size: 28px;
+  }
+
+
+  

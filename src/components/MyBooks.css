@@ -1,0 +1,28 @@
+/* MyBooks.css */
+.book-section {
+  padding: 20px;
+  text-align: center; /* Center the content */
+}
+
+.book-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the cards horizontally */
+  gap: 20px; /* Add some space between books */
+}
+
+.book-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px; /* Increased padding */
+  width: 400px; /* Increased card width */
+}
+
+.book-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.book-details {
+  text-align: center;
+}

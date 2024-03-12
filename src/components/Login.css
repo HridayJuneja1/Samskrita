@@ -1,0 +1,49 @@
+/* LoginStyles.css */
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: white;
+    padding: 60px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 400px; /* Increased width */
+  }
+  
+  .input {
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+    outline: none;
+    font-size: 18px; /* Increased font size */
+  }
+  
+  .button {
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 18px; /* Increased font size */
+  }
+  
+  .button:hover {
+    background-color: #333;
+  }
+  
+  .title {
+    color: black;
+    text-align: center;
+    font-size: 24px; /* Increased font size */
+  }
+  
